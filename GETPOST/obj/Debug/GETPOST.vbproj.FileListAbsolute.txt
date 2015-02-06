@@ -8,3 +8,10 @@ C:\Users\cesar.oliart\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.dll
 C:\Users\cesar.oliart\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.dll
 C:\Users\cesar.oliart\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.xml
 C:\Users\cesar.oliart\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.pdb
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.Resources.resources
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.dll.licenses
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.dll
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.xml
+C:\Users\User\Documents\GitHub\SistemaRRHH\GETPOST\obj\Debug\GETPOST.pdb

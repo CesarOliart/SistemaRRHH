@@ -124,40 +124,26 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\ChangePassword.aspx.designer.vb">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    <Compile Include="Campaña.aspx.designer.vb">
+      <DependentUpon>Campaña.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\ChangePassword.aspx.vb">
-      <DependentUpon>ChangePassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Campaña.aspx.vb">
+      <DependentUpon>Campaña.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    <Compile Include="Empresa.aspx.designer.vb">
+      <DependentUpon>Empresa.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
-      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Empresa.aspx.vb">
+      <DependentUpon>Empresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Account\Login.aspx.designer.vb">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="PostulanteCampaña.aspx.designer.vb">
+      <DependentUpon>PostulanteCampaña.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Login.aspx.vb">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Register.aspx.designer.vb">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\Register.aspx.vb">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\RegisterSuccess.aspx.designer.vb">
-      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\RegisterSuccess.aspx.vb">
-      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="PostulanteCampaña.aspx.vb">
+      <DependentUpon>PostulanteCampaña.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PostulanteEliminado.aspx.designer.vb">
       <DependentUpon>PostulanteEliminado.aspx</DependentUpon>
@@ -242,23 +228,20 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\ChangePassword.aspx" />
-    <Content Include="Account\ChangePasswordSuccess.aspx" />
-    <Content Include="Account\Login.aspx" />
-    <Content Include="Account\Register.aspx" />
-    <Content Include="Account\RegisterSuccess.aspx" />
     <Content Include="App_Data\NWind.mdf" />
     <Content Include="App_Data\SideMenu.xml" />
     <Content Include="App_Data\TopMenu.xml" />
+    <Content Include="Campaña.aspx" />
     <Content Include="Content\Images\AquaHeader.jpg" />
     <Content Include="Content\Images\BlackGlassHeader.jpg" />
     <Content Include="Content\Images\GlassHeader.jpg" />
     <Content Include="Content\Images\PlasticBlueHeader.jpg" />
     <Content Include="Content\Images\RedWineHeader.jpg" />
+    <Content Include="Empresa.aspx" />
+    <Content Include="PostulanteCampaña.aspx" />
     <Content Include="PostulanteEliminado.aspx" />
     <Content Include="Light.master" />
     <Content Include="Main.master" />
-    <Content Include="Account\Web.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

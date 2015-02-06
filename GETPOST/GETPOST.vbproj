@@ -88,6 +88,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
@@ -196,6 +198,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Plantilla.Master.designer.vb">
+      <DependentUpon>Plantilla.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Plantilla.Master.vb">
+      <DependentUpon>Plantilla.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Postulante.aspx.designer.vb">
+      <DependentUpon>Postulante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Postulante.aspx.vb">
+      <DependentUpon>Postulante.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Root.master.designer.vb">
       <DependentUpon>Root.master</DependentUpon>
     </Compile>
@@ -203,8 +219,14 @@
       <DependentUpon>Root.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Service References\ServicioWeb1\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -238,8 +260,21 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="Postulante.aspx" />
     <Content Include="Root.master" />
+    <Content Include="Service References\ServicioWeb1\configuration91.svcinfo" />
+    <Content Include="Service References\ServicioWeb1\configuration.svcinfo" />
+    <Content Include="Service References\ServicioWeb1\GETPOST.ServicioWeb1.trabajador.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioWeb1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
     <Content Include="Web.config" />
+    <Content Include="Plantilla.Master" />
+    <Content Include="Service References\ServicioWeb1\TrabajadorWS.wsdl" />
+    <Content Include="Service References\ServicioWeb1\TrabajadorWSImplService.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -252,6 +287,12 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicioWeb1\" />
   </ItemGroup>
   <!--<ItemGroup>
     <Folder Include="App_Data\" />

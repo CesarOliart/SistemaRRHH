@@ -5,4 +5,8 @@ Public Class MainMaster
 
     End Sub
 
+   
+    Protected Sub ASPxNavBar1_ItemClick(source As Object, e As DevExpress.Web.ASPxNavBar.NavBarItemEventArgs) Handles ASPxNavBar1.ItemClick
+
+    End Sub
 End Class

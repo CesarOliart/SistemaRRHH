@@ -3,7 +3,7 @@
   <group Text="Postulante">
     <item Text="Crear" NavigateUrl="~/Postulante.aspx"/>
     <item Text="Modificar" />
-    <item Text="Eliminar" />
+    <item Text="Eliminar" NavigateUrl="~/PostulanteEliminado.aspx" />
   </group>
   <group Text="Campaña">
     <item Text="Crear Campaña" />

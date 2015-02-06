@@ -35,6 +35,15 @@
         </td><td align="left">
             <asp:TextBox ID="txtSexo" runat="server" CssClass="cajatexto"></asp:TextBox>
         </td></tr>
+         <tr><td style="width:180px" align="left">
+        <asp:Label ID="Label2" runat="server" Text="AFP" ></asp:Label>
+        </td><td align="left">
+            <asp:TextBox ID="txtAFP" runat="server" CssClass="cajatexto"></asp:TextBox>
+        </td><td style="width:180px" align="left">
+        <asp:Label ID="Label15" runat="server" Text="CUSPP" ></asp:Label>
+        </td><td align="left">
+            <asp:TextBox ID="txtCUSPP" runat="server" CssClass="cajatexto"></asp:TextBox>
+        </td></tr>
         <tr><td style="width:180px" align="left">
         <asp:Label ID="Label11" runat="server" Text="Nacionalidad" ></asp:Label>
         </td><td align="left">
@@ -53,15 +62,25 @@
         </td><td align="left">
             <asp:TextBox ID="txtDistrito" runat="server" CssClass="cajatexto"></asp:TextBox>
         </td></tr>
+         <tr><td align="left">
+    <asp:Label ID="Label16" runat="server" Text="Banco" ></asp:Label>
+    </td><td align="left" colspan="2"> 
+            <asp:TextBox ID="txtBanco" runat="server" CssClass="cajatexto" Width="250px"></asp:TextBox>
+        </td><td></td></tr>
     <tr><td align="left">
     <asp:Label ID="Label7" runat="server" Text="Domicilio" ></asp:Label>
     </td><td align="left" colspan="2"> 
             <asp:TextBox ID="txtDomicilio" runat="server" CssClass="cajatexto" Width="250px"></asp:TextBox>
         </td><td></td></tr>
+        <tr><td align="left">
+    <asp:Label ID="Label1" runat="server" Text="Email" ></asp:Label>
+    </td><td align="left" colspan="2"> 
+            <asp:TextBox ID="txtCorreo" runat="server" CssClass="cajatexto" Width="250px"></asp:TextBox>
+        </td><td></td></tr>
          <tr><td align="left">
     
     </td><td align="center" colspan="2"> 
-        <asp:Button ID="btnCambio" runat="server"  Text ="Aceptar" />
+        <asp:Button ID ="btnCambio"  runat="server"  Text ="Aceptar" />
         <asp:Button ID="btnCancelar" runat="server" Text="Cancelar"  />
         </td><td></td></tr>
     
